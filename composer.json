@@ -1,0 +1,24 @@
+{
+    "name": "passkeys/passkeys",
+    "type": "library",
+    "description": "Passkeys for PHP 8.0",
+    "keywords": ["passkeys","webauthn"],
+    "homepage": "https://corbado.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Corbado",
+            "email": "contact@corbado.com",
+            "homepage": "https://corbado.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Passkeys": "src"
+        }
+    }
+}
